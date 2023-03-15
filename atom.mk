@@ -9,6 +9,6 @@ LOCAL_LDFLAGS := --static
 
 LOCAL_SRC_FILES := picohttpparser.c
 
-LOCAL_INSTALL_HEADERS := picohttpparser.h
+LOCAL_INSTALL_HEADERS := picohttpparser.h:usr/include/picohttpparser.h
 
 include $(BUILD_STATIC_LIBRARY)
